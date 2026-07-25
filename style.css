@@ -814,6 +814,9 @@ body {
         height: 350px;
         margin: 0 auto;
     }
+    .team-emblem-large {
+        margin-top: 0;
+    }
 }
 
 @media (max-width: 768px) {
