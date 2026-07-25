@@ -781,12 +781,12 @@ body {
         order: -1;
     }
     .team-emblem-large {
-        width: 200px;
-        height: 200px;
+        width: 500px;
+        height: 500px;
     }
     .team-logo-img {
-        width: 140px;
-        height: 140px;
+        width: 500px;
+        height: 500px;
     }
 }
 
@@ -817,13 +817,13 @@ body {
     }
 
     .team-emblem-large {
-        width: 220px;
-        height: 220px;
+        width: 500px;
+        height: 500px;
     }
 
     .team-logo-img {
-        width: 220px;
-        height: 220px;
+        width: 500px;
+        height: 500px;
     }
 
     .players-grid {
@@ -934,13 +934,13 @@ body {
     }
 
     .team-emblem-large {
-        width: 220px;
-        height: 220px;
+        width: 500px;
+        height: 500px;
     }
 
     .team-logo-img {
-        width: 220px;
-        height: 220px;
+        width: 500px;
+        height: 500px;
     }
 
     .players-grid {
