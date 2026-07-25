@@ -970,14 +970,14 @@ body {
     }
 
     .team-emblem-large {
-        width: 140px;
-        height: 140px;
+        width: 480px;
+        height: 480px;
         margin: 0 auto;
     }
 
     .team-logo-img {
-        width: 100px;
-        height: 100px;
+        width: 480px;
+        height: 480px;
     }
 
     .players-grid {
