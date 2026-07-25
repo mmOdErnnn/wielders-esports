@@ -25,6 +25,8 @@ body {
     overflow-x: hidden;
     min-height: 100vh;
     position: relative;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
 }
 
 /* ===== АНИМИРОВАННЫЙ ГРАДИЕНТНЫЙ ФОН ===== */
