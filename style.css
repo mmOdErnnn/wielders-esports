@@ -768,27 +768,40 @@ body {
         grid-template-columns: repeat(3, 1fr);
     }
     .about-section {
-        grid-template-columns: 1fr;
-        text-align: center;
-        gap: 40px;
-        padding: 30px 0 20px;
+        padding: 16px 0 20px;
+        gap: 20px;
     }
+
+    .about-content h1 {
+        font-size: 24px;
+        text-align: center;
+        max-width: 100%;
+    }
+
     .about-content .subtitle {
-        margin: 0 auto 28px;
+        font-size: 13px;
+        max-width: 100%;
+        padding: 0 4px;
+        margin-bottom: 16px;
+    }
+
+    .about-visual {
+        display: flex;
+        justify-content: center;
+    }
+
+    .team-emblem-large {
+        width: 140px;
+        height: 140px;
+        margin: 0 auto;
+    }
+
+    .team-logo-img {
+        width: 100px;
+        height: 100px;
     }
     .stats-row {
         justify-content: center;
-    }
-    .about-visual {
-        order: -1;
-    }
-    .team-emblem-large {
-        width: 500px;
-        height: 500px;
-    }
-    .team-logo-img {
-        width: 500px;
-        height: 500px;
     }
 }
 
@@ -803,29 +816,37 @@ body {
     }
 
     .about-section {
-        padding: 20px 0 30px;
+        padding: 16px 0 20px;
+        gap: 20px;
     }
 
     .about-content h1 {
-        font-size: 32px;
+        font-size: 24px;
         text-align: center;
+        max-width: 100%;
     }
 
     .about-content .subtitle {
-        font-size: 15px;
+        font-size: 13px;
         max-width: 100%;
-        text-align: center;
-        padding: 0 8px;
+        padding: 0 4px;
+        margin-bottom: 16px;
+    }
+
+    .about-visual {
+        display: flex;
+        justify-content: center;
     }
 
     .team-emblem-large {
-        width: 500px;
-        height: 500px;
+        width: 140px;
+        height: 140px;
+        margin: 0 auto;
     }
 
     .team-logo-img {
-        width: 500px;
-        height: 500px;
+        width: 100px;
+        height: 100px;
     }
 
     .players-grid {
