@@ -315,15 +315,26 @@ body {
     justify-content: center;
 }
 
-
+.team-emblem-large {
+    width: min(280px, 60vw);
+    height: min(280px, 60vw);
+    background: transparent;
+    border-radius: 24px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: none;
+    margin: 0 auto;
+}
 
 .team-logo-img {
-    width: 600px;
-    height: 600px;
+    width: 70%;
+    height: 70%;
     object-fit: contain;
     position: relative;
     z-index: 1;
-    filter: drop-shadow(0 0 30px rgba(168, 85, 247, 0.4));
     animation: emblemFloat 4s ease-in-out infinite;
     pointer-events: none;
     user-select: none;
@@ -789,17 +800,7 @@ body {
         display: flex;
         justify-content: center;
     }
-
-    .team-emblem-large {
-        width: 500px;
-        height: 500px;
-        margin: 0 auto;
-    }
-
-    .team-logo-img {
-        width: 300px;
-        height: 300px;
-    }
+    
     .stats-row {
         justify-content: center;
     }
@@ -836,17 +837,6 @@ body {
     .about-visual {
         display: flex;
         justify-content: center;
-    }
-
-    .team-emblem-large {
-        width: 300px;
-        height: 300px;
-        margin: 0 auto;
-    }
-
-    .team-logo-img {
-        width: 300px;
-        height: 300px;
     }
 
     .players-grid {
@@ -967,17 +957,6 @@ body {
     .about-visual {
         display: flex;
         justify-content: center;
-    }
-
-    .team-emblem-large {
-        width: 480px;
-        height: 480px;
-        margin: 0 auto;
-    }
-
-    .team-logo-img {
-        width: 480px;
-        height: 480px;
     }
 
     .players-grid {
