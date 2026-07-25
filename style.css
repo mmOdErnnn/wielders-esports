@@ -829,7 +829,13 @@ body {
         font-size: 20px;
     }
 
-        .about-section {
+    .team-emblem-large {
+        width: 260px;
+        height: 260px;
+        margin: 0 auto;
+    }
+
+    .about-section {
         grid-template-columns: 1fr;
         text-align: center;
         gap: 20px;
@@ -956,6 +962,12 @@ body {
         text-align: center;
         padding: 0 4px;
         margin: 0 auto 14px;
+    }
+
+    .team-emblem-large {
+        width: 260px;
+        height: 260px;
+        margin: 0 auto;
     }
     
     .container {
