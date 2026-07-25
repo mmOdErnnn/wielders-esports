@@ -791,14 +791,14 @@ body {
     }
 
     .team-emblem-large {
-        width: 140px;
-        height: 140px;
+        width: 300px;
+        height: 300px;
         margin: 0 auto;
     }
 
     .team-logo-img {
-        width: 100px;
-        height: 100px;
+        width: 300px;
+        height: 300px;
     }
     .stats-row {
         justify-content: center;
