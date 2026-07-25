@@ -326,6 +326,7 @@ body {
     justify-content: center;
     position: relative;
     box-shadow: none;
+    margin-top: -20px;
 }
 
 .team-logo-img {
