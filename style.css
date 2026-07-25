@@ -1090,3 +1090,7 @@ body {
         right: 6px;
     }
 }
+.team-emblem-large {
+    width: 100px !important;
+    height: 100px !important;
+}
