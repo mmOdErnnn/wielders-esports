@@ -65,10 +65,12 @@
 
         <!-- ====== ИГРОКИ ====== -->
         <section class="players-section" id="roster">
-            <div class="section-header">
+            <div class="section-header collapsible-header" onclick="toggleSection('roster-section')">
                 <div class="section-line"></div>
                 <h2>ACTIVE ROSTER</h2>
+                <span class="toggle-arrow" id="roster-arrow">▼</span>
             </div>
+            <div class="collapsible-content" id="roster-section">
             <div class="players-grid">
 
                 <!-- Игрок 1 -->
