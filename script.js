@@ -76,3 +76,13 @@ function closeNews(event) {
     modal.classList.remove('active');
     document.body.style.overflow = '';
 }
+
+// Сворачивание / разворачивание секций
+function toggleSection(sectionId) {
+    const content = document.getElementById(sectionId);
+    const arrowId = sectionId === 'roster-section' ? 'roster-arrow' : 'news-arrow';
+    const arrow = document.getElementById(arrowId);
+
+    content.classList.toggle('collapsed');
+    arrow.classList.toggle('collapsed');
+}
