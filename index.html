@@ -153,10 +153,12 @@
 
         <!-- ====== НОВОСТИ / АНОНСЫ ====== -->
         <section class="news-section" id="news">
-            <div class="section-header">
+            <div class="section-header collapsible-header" onclick="toggleSection('news-section')">
                 <div class="section-line"></div>
                 <h2>NEWS</h2>
+                <span class="toggle-arrow" id="news-arrow">▼</span>
             </div>
+            <div class="collapsible-content" id="news-section">
             <div class="news-scroll">
 
                 <a href="#" class="news-card" data-news-id="cyberx-standin" onclick="openNews(event, 'cyberx-standin')">
