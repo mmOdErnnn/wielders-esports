@@ -773,6 +773,43 @@ body {
     margin-bottom: 12px;
 }
 
+/* === СКЛАДНЫЕ СЕКЦИИ === */
+.collapsible-header {
+    cursor: pointer;
+    user-select: none;
+    transition: opacity 0.3s;
+}
+
+.collapsible-header:hover {
+    opacity: 0.8;
+}
+
+.toggle-arrow {
+    display: inline-block;
+    font-size: 16px;
+    color: var(--text-secondary);
+    transition: transform 0.3s ease;
+    margin-left: 10px;
+}
+
+.toggle-arrow.collapsed {
+    transform: rotate(-90deg);
+}
+
+.collapsible-content {
+    overflow: hidden;
+    transition: max-height 0.5s ease, opacity 0.3s ease;
+    max-height: 2000px;
+    opacity: 1;
+}
+
+.collapsible-content.collapsed {
+    max-height: 0;
+    opacity: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 /* === АДАПТИВ === */
 @media (max-width: 1024px) {
     .players-grid {
