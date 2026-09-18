@@ -52,6 +52,82 @@ const newsData = {
     },
 };
 
+const playersData = {
+    'vexar': {
+        nickname: 'Vexar',
+        role: 'IGL / Капитан',
+        name: 'Алексей Петров',
+        photo: 'vexar.png',
+        stats: '',
+        bio: `
+            <p>Капитан и основатель команды. Стратегическое мышление и глубокое понимание меты CS2.</p>
+        `,
+        socials: `
+            <a href="#" class="player-social-link">Faceit</a>
+            <a href="#" class="player-social-link">Steam</a>
+            <a href="#" class="player-social-link">Twitch</a>
+        `
+    },
+    'kobalt': {
+        nickname: 'Kobalt',
+        role: 'Entry Fragger',
+        name: 'Максим Орлов',
+        photo: 'kobalt.png',
+        stats: '',
+        bio: `
+            <p>Главная ударная сила команды. Молниеносная реакция и агрессивный вход на точку.</p>
+        `,
+        socials: `
+            <a href="#" class="player-social-link">Faceit</a>
+            <a href="#" class="player-social-link">Steam</a>
+        `
+    },
+    'phantom': {
+        nickname: 'Phantom',
+        role: 'AWPer',
+        name: 'Дмитрий Соколов',
+        photo: 'phantom.png',
+        stats: '',
+        bio: `
+            <p>Снайпер с выдающейся механикой. Держит углы как никто другой.</p>
+        `,
+        socials: `
+            <a href="#" class="player-social-link">Faceit</a>
+            <a href="#" class="player-social-link">Steam</a>
+            <a href="#" class="player-social-link">YouTube</a>
+        `
+    },
+    'slash': {
+        nickname: 'Slash',
+        role: 'Rifler / Support',
+        name: 'Артём Иванов',
+        photo: 'slash.png',
+        stats: '',
+        bio: `
+            <p>Надёжный опорник и главный помощник капитана. Закрывает фланги, раздаёт информацию.</p>
+        `,
+        socials: `
+            <a href="#" class="player-social-link">Faceit</a>
+            <a href="#" class="player-social-link">Steam</a>
+        `
+    },
+    'novax': {
+        nickname: 'NovaX',
+        role: 'Lurker',
+        name: 'Илья Кузнецов',
+        photo: 'novax.png',
+        stats: '',
+        bio: `
+            <p>Самый молодой игрок состава. Нестандартное мышление и умение находить свободные зоны.</p>
+        `,
+        socials: `
+            <a href="#" class="player-social-link">Faceit</a>
+            <a href="#" class="player-social-link">Steam</a>
+            <a href="#" class="player-social-link">Twitch</a>
+        `
+    }
+};
+
 // Открыть модальное окно
 function openNews(event, id) {
     event.preventDefault();
