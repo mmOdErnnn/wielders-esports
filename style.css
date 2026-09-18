@@ -164,7 +164,7 @@ body::after {
 
 /* ===== СЕТКА ФОНА ===== */
 .bg-grid {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
