@@ -1,4 +1,4 @@
-// Данные новостей
+// ===== ДАННЫЕ НОВОСТЕЙ =====
 const newsData = {
     'cyberx-standin': {
         tag: 'Information',
@@ -6,129 +6,115 @@ const newsData = {
         title: 'totle09 will act as a stand-in at the next tournament',
         date: '9 July 2026',
         body: `
-            <p>Mikhail "mODeRN" Galchenkov will not be able to attend the upcoming CyberX 5x5 LAN for personal reasons. He will be replaced by Ivan "totle09" Lukinsky during the tournament.</p>
-            <p>Ivan is well known to us, as he has already played as a substitute in our team before. We are sure that he will do an excellent job with the tasks assigned to him and will perform well on the server.</p>
-            <p>The team will start performing on July 26 at 11:00 Moscow time.</p>
-            <p>Cheer for the Wielders</p>
+            <p>Полный текст новости о том, что totle09 будет стендином на ближайшем турнире.</p>
         `
     },
     'cyberx-5v5': {
         tag: 'Announce',
         tagClass: 'tag-announce',
-        title: 'Wielders Esports will participate on CyberX 5x5 LAN',
+        title: 'Wilders Esports will participate on CyberX 5x5 LAN',
         date: '4 July 2026',
         body: `
-            <p>In the near future, our team will take part in CyberX 5x5 LAN tournament, which will commence on July 26 at 11:00 Moscow time.</p>
-            <p>This will be the first serious tournament after the January series of changes.</p>
-            <p>The roster has already gathered to prepare for the tournament in order to approach it in optimal shape.</p>
-            <p>Cheer for the Wielders</p>
+            <p>Полный текст анонса об участии в CyberX 5x5 LAN.</p>
         `
     },
     'fara-announce': {
-        tag: 'Roster Changes',
+        tag: 'ROSTER CHANGES',
         tagClass: 'tag-roster',
         title: 'Fara is back in action, replacing SuSH1 as a sniper',
         date: '19 January 2026',
         body: `
-            <p>Not much time has passed since the addition of dex, but we are once again making changes to the roster.</p>
-            <p>Gleb "SuSH1" Stepanenko sits on the bench. This decision was made in accordance with the vision of the organization and the desire of the player himself.</p>
-            <p>SuSH1 stood at the origins of the organization, and we are incredibly grateful to him for the months he spent with the team. The management sees prospects for his development and we will hope for a bright future for his career.</p>
-            <p>However, while someone sits on the bench, someone rises from it. Danil "Fara" Sidorov returns to the main roster after more than six months of absence.</p>
-            <p>During this time, Danil was able to further develop his talent, strengthen his self-confidence and is now ready to return to the server. The organization fully trusts him to return to the role of a sniper, and we are confident that he will be able to reveal himself even more than before.</p>
+            <p>Not much time has passed since the addition of dex, but Wielders are once again making changes to the roster.</p>
+            <p>Полный текст новости про возвращение Fara.</p>
         `
     },
     'dex-announce': {
-        tag: 'Roster Changes',
+        tag: 'ROSTER CHANGES',
         tagClass: 'tag-roster',
-        title: 'Sp3ctra is taking a backseat to give dex a chance to shine.',
+        title: 'Sp3ctra is taking a backseat to give dex a chance to shine',
         date: '3 January 2026',
         body: `
-            <p>After analyzing the results of the last matches, it was decided to make changes to the team.</p>
-            <p>Mikhail "Sp3ctra" Sokolov was moved to the bench and Stepan "dex" Lukinsky took his place. Stepan has already played in several matches as a stand-in for the updated roster, and the management is very satisfied with his performance. We believe that he will easily integrate into the team and be able to handle all assigned tasks.</p>
-            <p>Mikhail has made a worthy and extremely important contribution to the development of the organization, but in recent months he has not been able to properly play his roles in the team. We thank him for his time with us and believe that he will have a bright future ahead of him.</p>
-            <p>After Sp3ctra's departure, Gleb "SuSH1" Stepanenko will return to his role as the main sniper.</p>
-            <p>The team will meet again soon to prepare for the upcoming games.</p>
-        `
-    },
-};
-
-const playersData = {
-    'vexar': {
-        nickname: 'Vexar',
-        role: 'IGL / Капитан',
-        name: 'Алексей Петров',
-        photo: 'vexar.png',
-        stats: '',
-        bio: `
-            <p>Капитан и основатель команды. Стратегическое мышление и глубокое понимание меты CS2.</p>
-        `,
-        socials: `
-            <a href="#" class="player-social-link">Faceit</a>
-            <a href="#" class="player-social-link">Steam</a>
-            <a href="#" class="player-social-link">Twitch</a>
-        `
-    },
-    'kobalt': {
-        nickname: 'Kobalt',
-        role: 'Entry Fragger',
-        name: 'Максим Орлов',
-        photo: 'kobalt.png',
-        stats: '',
-        bio: `
-            <p>Главная ударная сила команды. Молниеносная реакция и агрессивный вход на точку.</p>
-        `,
-        socials: `
-            <a href="#" class="player-social-link">Faceit</a>
-            <a href="#" class="player-social-link">Steam</a>
-        `
-    },
-    'phantom': {
-        nickname: 'Phantom',
-        role: 'AWPer',
-        name: 'Дмитрий Соколов',
-        photo: 'phantom.png',
-        stats: '',
-        bio: `
-            <p>Снайпер с выдающейся механикой. Держит углы как никто другой.</p>
-        `,
-        socials: `
-            <a href="#" class="player-social-link">Faceit</a>
-            <a href="#" class="player-social-link">Steam</a>
-            <a href="#" class="player-social-link">YouTube</a>
-        `
-    },
-    'slash': {
-        nickname: 'Slash',
-        role: 'Rifler / Support',
-        name: 'Артём Иванов',
-        photo: 'slash.png',
-        stats: '',
-        bio: `
-            <p>Надёжный опорник и главный помощник капитана. Закрывает фланги, раздаёт информацию.</p>
-        `,
-        socials: `
-            <a href="#" class="player-social-link">Faceit</a>
-            <a href="#" class="player-social-link">Steam</a>
-        `
-    },
-    'novax': {
-        nickname: 'NovaX',
-        role: 'Lurker',
-        name: 'Илья Кузнецов',
-        photo: 'novax.png',
-        stats: '',
-        bio: `
-            <p>Самый молодой игрок состава. Нестандартное мышление и умение находить свободные зоны.</p>
-        `,
-        socials: `
-            <a href="#" class="player-social-link">Faceit</a>
-            <a href="#" class="player-social-link">Steam</a>
-            <a href="#" class="player-social-link">Twitch</a>
+            <p>Wielders officially announce changes in the main roster after a short testing of various stand-ins.</p>
+            <p>Полный текст новости про добавление dex в состав.</p>
         `
     }
 };
 
-// Открыть модальное окно
+// ===== ДАННЫЕ ИГРОКОВ =====
+const playersData = {
+    'suzume': {
+        nickname: 'Suzume',
+        role: 'Rifler',
+        name: 'Maxim Kolbaya',
+        photo: 'suzume.png',
+        stats: '',
+        bio: `
+            <p>Биография Suzume.</p>
+        `,
+        socials: `
+            <a href="#" class="player-social-link">Faceit</a>
+            <a href="#" class="player-social-link">Steam</a>
+        `
+    },
+    'dex': {
+        nickname: 'dex',
+        role: 'Rifler',
+        name: 'Stepan Lukinsky',
+        photo: 'dex.png',
+        stats: '',
+        bio: `
+            <p>Биография dex.</p>
+        `,
+        socials: `
+            <a href="#" class="player-social-link">Faceit</a>
+            <a href="#" class="player-social-link">Steam</a>
+        `
+    },
+    'solar': {
+        nickname: 'Solar',
+        role: 'IGL',
+        name: 'Ivan Komarov',
+        photo: 'solar.png',
+        stats: '',
+        bio: `
+            <p>Биография Solar.</p>
+        `,
+        socials: `
+            <a href="#" class="player-social-link">Faceit</a>
+            <a href="#" class="player-social-link">Steam</a>
+        `
+    },
+    'modern': {
+        nickname: 'mODeRN',
+        role: 'Rifler',
+        name: 'Mikhail Galchenkov',
+        photo: 'modern.png',
+        stats: '',
+        bio: `
+            <p>Биография mODeRN.</p>
+        `,
+        socials: `
+            <a href="#" class="player-social-link">Faceit</a>
+            <a href="#" class="player-social-link">Steam</a>
+        `
+    },
+    'fara': {
+        nickname: 'Fara',
+        role: 'Sniper',
+        name: 'Daniil Sidorov',
+        photo: 'fara.png',
+        stats: '',
+        bio: `
+            <p>Биография Fara.</p>
+        `,
+        socials: `
+            <a href="#" class="player-social-link">Faceit</a>
+            <a href="#" class="player-social-link">Steam</a>
+        `
+    }
+};
+
+// ===== МОДАЛЬНОЕ ОКНО НОВОСТИ =====
 function openNews(event, id) {
     event.preventDefault();
     const data = newsData[id];
@@ -145,7 +131,6 @@ function openNews(event, id) {
     document.body.style.overflow = 'hidden';
 }
 
-// Закрыть модальное окно
 function closeNews(event) {
     if (event && event.target !== document.getElementById('newsModal')) return;
     const modal = document.getElementById('newsModal');
@@ -153,7 +138,33 @@ function closeNews(event) {
     document.body.style.overflow = '';
 }
 
-// Сворачивание / разворачивание секций
+// ===== МОДАЛЬНОЕ ОКНО ПРОФИЛЯ ИГРОКА =====
+function openPlayer(event, id) {
+    event.preventDefault();
+    const data = playersData[id];
+    if (!data) return;
+    const modal = document.getElementById('playerModal');
+
+    document.getElementById('playerPhoto').src = data.photo;
+    document.getElementById('playerNickname').textContent = data.nickname;
+    document.getElementById('playerRole').textContent = data.role;
+    document.getElementById('playerName').textContent = data.name;
+    document.getElementById('playerStats').innerHTML = data.stats;
+    document.getElementById('playerBio').innerHTML = data.bio;
+    document.getElementById('playerSocials').innerHTML = data.socials;
+
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function closePlayer(event) {
+    if (event && event.target !== document.getElementById('playerModal')) return;
+    const modal = document.getElementById('playerModal');
+    modal.classList.remove('active');
+    document.body.style.overflow = '';
+}
+
+// ===== СКЛАДНЫЕ СЕКЦИИ =====
 function toggleSection(sectionId) {
     const content = document.getElementById(sectionId);
     const arrowId = sectionId === 'roster-section' ? 'roster-arrow' : 'news-arrow';
@@ -162,3 +173,13 @@ function toggleSection(sectionId) {
     content.classList.toggle('collapsed');
     arrow.classList.toggle('collapsed');
 }
+
+// ===== ЗАКРЫТИЕ МОДАЛОК ПО ESC =====
+document.addEventListener('keydown', function (event) {
+    if (event.key === 'Escape') {
+        const newsModal = document.getElementById('newsModal');
+        const playerModal = document.getElementById('playerModal');
+        if (newsModal.classList.contains('active')) closeNews();
+        if (playerModal.classList.contains('active')) closePlayer();
+    }
+});
