@@ -15,11 +15,6 @@ html {
     min-height: 100%;
 }
 
-body {
-    position: relative;
-    min-height: 100vh;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -40,12 +35,11 @@ body {
 
 /* ===== АНИМИРОВАННЫЙ ГРАДИЕНТНЫЙ ФОН ===== */
 .animated-bg {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    min-height: 100%;
+    height: 100vh;
     overflow: hidden;
     z-index: 0;
     pointer-events: none;
@@ -160,11 +154,11 @@ body {
 
 /* ===== СЕТКА ФОНА ===== */
 .bg-grid {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     pointer-events: none;
     z-index: 0;
     background-image:
