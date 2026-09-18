@@ -65,8 +65,8 @@ body {
 .gradient-1 {
     width: 700px;
     height: 700px;
-    background: radial-gradient(circle, rgba(168, 85, 247, 0.45) 0%, transparent 70%);
-    top: -15%;
+    background: radial-gradient(circle, rgba(168, 85, 247, 0.5) 0%, transparent 70%);
+    top: -150px;
     left: -10%;
     animation-name: floatGradient1;
     animation-duration: 16s;
@@ -75,8 +75,8 @@ body {
 .gradient-2 {
     width: 600px;
     height: 600px;
-    background: radial-gradient(circle, rgba(124, 58, 237, 0.45) 0%, transparent 70%);
-    bottom: -20%;
+    background: radial-gradient(circle, rgba(124, 58, 237, 0.5) 0%, transparent 70%);
+    top: 40vh;
     right: -10%;
     animation-name: floatGradient2;
     animation-duration: 20s;
@@ -85,10 +85,9 @@ body {
 .gradient-3 {
     width: 500px;
     height: 500px;
-    background: radial-gradient(circle, rgba(192, 132, 252, 0.3) 0%, transparent 70%);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    background: radial-gradient(circle, rgba(192, 132, 252, 0.35) 0%, transparent 70%);
+    top: 90vh;
+    left: 10%;
     animation-name: floatGradient3;
     animation-duration: 24s;
 }
@@ -96,29 +95,29 @@ body {
 .gradient-4 {
     width: 450px;
     height: 450px;
-    background: radial-gradient(circle, rgba(139, 92, 246, 0.35) 0%, transparent 70%);
-    top: 20%;
+    background: radial-gradient(circle, rgba(139, 92, 246, 0.4) 0%, transparent 70%);
+    top: 140vh;
     right: 15%;
     animation-name: floatGradient4;
     animation-duration: 18s;
 }
 
 .gradient-5 {
-    width: 400px;
-    height: 400px;
-    background: radial-gradient(circle, rgba(168, 85, 247, 0.3) 0%, transparent 70%);
-    top: 70%;
-    left: 25%;
+    width: 550px;
+    height: 550px;
+    background: radial-gradient(circle, rgba(168, 85, 247, 0.35) 0%, transparent 70%);
+    top: 200vh;
+    left: 20%;
     animation-name: floatGradient5;
     animation-duration: 22s;
 }
 
 .gradient-6 {
-    width: 350px;
-    height: 350px;
-    background: radial-gradient(circle, rgba(192, 132, 252, 0.25) 0%, transparent 70%);
-    top: 40%;
-    right: 30%;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(192, 132, 252, 0.3) 0%, transparent 70%);
+    top: 260vh;
+    right: 5%;
     animation-name: floatGradient6;
     animation-duration: 26s;
 }
