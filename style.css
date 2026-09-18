@@ -31,11 +31,13 @@ body {
 
 /* ===== АНИМИРОВАННЫЙ ГРАДИЕНТНЫЙ ФОН ===== */
 .animated-bg {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+    min-height: 100vh;
+    overflow: hidden;
     z-index: 0;
     pointer-events: none;
 }
@@ -43,75 +45,109 @@ body {
 .gradient-layer {
     position: absolute;
     border-radius: 50%;
-    filter: blur(120px);
-    opacity: 0.4;
+    filter: blur(140px);
+    opacity: 0.45;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    animation-direction: alternate;
+    will-change: transform;
 }
 
 .gradient-1 {
     width: 700px;
     height: 700px;
-    background: radial-gradient(circle, rgba(168, 85, 247, 0.5) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(168, 85, 247, 0.45) 0%, transparent 70%);
     top: -15%;
     left: -10%;
     animation-name: floatGradient1;
-    animation-duration: 12s;
+    animation-duration: 16s;
 }
 
 .gradient-2 {
     width: 600px;
     height: 600px;
-    background: radial-gradient(circle, rgba(124, 58, 237, 0.5) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(124, 58, 237, 0.45) 0%, transparent 70%);
     bottom: -20%;
     right: -10%;
     animation-name: floatGradient2;
-    animation-duration: 15s;
+    animation-duration: 20s;
 }
 
 .gradient-3 {
     width: 500px;
     height: 500px;
-    background: radial-gradient(circle, rgba(192, 132, 252, 0.35) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(192, 132, 252, 0.3) 0%, transparent 70%);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     animation-name: floatGradient3;
-    animation-duration: 18s;
+    animation-duration: 24s;
 }
 
 .gradient-4 {
-    width: 400px;
-    height: 400px;
-    background: radial-gradient(circle, rgba(139, 92, 246, 0.4) 0%, transparent 70%);
+    width: 450px;
+    height: 450px;
+    background: radial-gradient(circle, rgba(139, 92, 246, 0.35) 0%, transparent 70%);
     top: 20%;
     right: 15%;
     animation-name: floatGradient4;
-    animation-duration: 14s;
+    animation-duration: 18s;
+}
+
+.gradient-5 {
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(168, 85, 247, 0.3) 0%, transparent 70%);
+    top: 70%;
+    left: 25%;
+    animation-name: floatGradient5;
+    animation-duration: 22s;
+}
+
+.gradient-6 {
+    width: 350px;
+    height: 350px;
+    background: radial-gradient(circle, rgba(192, 132, 252, 0.25) 0%, transparent 70%);
+    top: 40%;
+    right: 30%;
+    animation-name: floatGradient6;
+    animation-duration: 26s;
 }
 
 @keyframes floatGradient1 {
-    0%, 100% { transform: translate(0, 0) scale(1); }
-    25% { transform: translate(60px, 40px) scale(1.15); }
-    50% { transform: translate(30px, -30px) scale(0.9); }
-    75% { transform: translate(-40px, 20px) scale(1.1); }
+    0% { transform: translate(0, 0) scale(1); }
+    50% { transform: translate(80px, 50px) scale(1.2); }
+    100% { transform: translate(-30px, 70px) scale(0.95); }
 }
 
 @keyframes floatGradient2 {
-    0%, 100% { transform: translate(0, 0) scale(1); }
-    33% { transform: translate(-50px, -50px) scale(1.2); }
-    66% { transform: translate(40px, 30px) scale(0.85); }
+    0% { transform: translate(0, 0) scale(1); }
+    50% { transform: translate(-70px, -60px) scale(1.25); }
+    100% { transform: translate(50px, -30px) scale(0.9); }
 }
 
 @keyframes floatGradient3 {
-    0%, 100% { transform: translate(-50%, -50%) scale(1); }
-    50% { transform: translate(-50%, -50%) scale(1.3); }
+    0% { transform: translate(-50%, -50%) scale(1); }
+    50% { transform: translate(-50%, -50%) scale(1.35); }
+    100% { transform: translate(-45%, -55%) scale(1.1); }
 }
 
 @keyframes floatGradient4 {
-    0%, 100% { transform: translate(0, 0) scale(1) rotate(0deg); }
-    33% { transform: translate(-30px, 50px) scale(1.2) rotate(5deg); }
-    66% { transform: translate(50px, -20px) scale(0.9) rotate(-5deg); }
+    0% { transform: translate(0, 0) scale(1) rotate(0deg); }
+    50% { transform: translate(-40px, 60px) scale(1.25) rotate(8deg); }
+    100% { transform: translate(60px, -30px) scale(0.95) rotate(-5deg); }
+}
+
+@keyframes floatGradient5 {
+    0% { transform: translate(0, 0) scale(1); }
+    50% { transform: translate(50px, -40px) scale(1.3); }
+    100% { transform: translate(-60px, 30px) scale(0.9); }
+}
+
+@keyframes floatGradient6 {
+    0% { transform: translate(0, 0) scale(1) rotate(0deg); }
+    50% { transform: translate(-50px, -50px) scale(1.2) rotate(-10deg); }
+    100% { transform: translate(40px, 40px) scale(1.05) rotate(5deg); }
 }
 
 /* ===== СЕТКА ФОНА ===== */
