@@ -54,6 +54,8 @@ body {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     will-change: transform;
+    transform: translateZ(0);
+    backface-visibility: hidden;
 }
 
 .gradient-1 {
