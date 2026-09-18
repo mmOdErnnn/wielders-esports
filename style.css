@@ -48,7 +48,7 @@ body {
 .gradient-layer {
     position: absolute;
     border-radius: 50%;
-    filter: blur(140px);
+    filter: blur(80px);
     opacity: 0.45;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
