@@ -83,8 +83,8 @@ const playersData = {
         `,
         bio: `<p>Has been a part of Wielders ES since June 2025.</p>`,
         socials: `
-            <a href="#" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
-            <a href="#" target="_blank" rel="noopener" class="player-social-link">Steam</a>
+            <a href="https://www.faceit.com/ru/players/Th3mBones" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
+            <a href="https://steamcommunity.com/id/suzum3b4chi" target="_blank" rel="noopener" class="player-social-link">Steam</a>
         `
     },
     'dex': {
@@ -116,8 +116,8 @@ const playersData = {
         `,
         bio: `<p>Has been a part of Wielders ES since January 2026.</p>`,
         socials: `
-            <a href="#" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
-            <a href="#" target="_blank" rel="noopener" class="player-social-link">Steam</a>
+            <a href="https://www.faceit.com/ru/players/STEPANSPADGE" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
+            <a href="https://steamcommunity.com/profiles/76561199470813315" target="_blank" rel="noopener" class="player-social-link">Steam</a>
         `
     },
     'solar': {
@@ -149,8 +149,8 @@ const playersData = {
         `,
         bio: `<p>Has been a part of Wielders ES since February 2025.</p>`,
         socials: `
-            <a href="#" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
-            <a href="#" target="_blank" rel="noopener" class="player-social-link">Steam</a>
+            <a href="https://www.faceit.com/ru/players/so111ar" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
+            <a href="https://steamcommunity.com/profiles/76561199811724054" target="_blank" rel="noopener" class="player-social-link">Steam</a>
         `
     },
     'modern': {
@@ -182,8 +182,8 @@ const playersData = {
         `,
         bio: `<p>Has been a part of Wielders ES since February 2025.</p>`,
         socials: `
-            <a href="#" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
-            <a href="#" target="_blank" rel="noopener" class="player-social-link">Steam</a>
+            <a href="https://www.faceit.com/ru/players/mOdErn" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
+            <a href="https://steamcommunity.com/id/galchenkov/" target="_blank" rel="noopener" class="player-social-link">Steam</a>
         `
     },
     'fara': {
@@ -215,8 +215,8 @@ const playersData = {
         `,
         bio: `<p>Was a part of Wielders ES from February to June 2025. Has been a part of Wielders ES since January 2026.</p>`,
         socials: `
-            <a href="#" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
-            <a href="#" target="_blank" rel="noopener" class="player-social-link">Steam</a>
+            <a href="https://www.faceit.com/ru/players/Farasighted" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
+            <a href="https://steamcommunity.com/profiles/76561199095091335" target="_blank" rel="noopener" class="player-social-link">Steam</a>
         `
     }
 };
