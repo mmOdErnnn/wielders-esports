@@ -59,13 +59,32 @@ const playersData = {
         role: 'Rifler',
         name: 'Maxim Kolbaya',
         photo: 'suzume.png',
-        stats: '',
-        bio: `
-            <p>Биография Suzume.</p>
+        stats: `
+            <div class="player-stat">
+                <div class="player-stat-value">1266</div>
+                <div class="player-stat-label">ELO</div>
+            </div>
+            <div class="player-stat">
+                <div class="player-stat-value">1.18</div>
+                <div class="player-stat-label">Rating</div>
+            </div>
+            <div class="player-stat">
+                <div class="player-stat-value">1.12</div>
+                <div class="player-stat-label">K/D</div>
+            </div>
+            <div class="player-stat">
+                <div class="player-stat-value">44%</div>
+                <div class="player-stat-label">HS</div>
+            </div>
+            <div class="player-stat">
+                <div class="player-stat-value">80.3</div>
+                <div class="player-stat-label">ADR</div>
+            </div>
         `,
+        bio: `<p>Биография Suzume.</p>`,
         socials: `
-            <a href="https://www.faceit.com/ru/players/Th3mBones" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
-            <a href="https://steamcommunity.com/id/suzum3b4chi" target="_blank" rel="noopener" class="player-social-link">Steam</a>
+            <a href="#" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
+            <a href="#" target="_blank" rel="noopener" class="player-social-link">Steam</a>
         `
     },
     'dex': {
@@ -73,13 +92,32 @@ const playersData = {
         role: 'Rifler',
         name: 'Stepan Lukinsky',
         photo: 'dex.png',
-        stats: '',
-        bio: `
-            <p>Биография dex.</p>
+        stats: `
+            <div class="player-stat">
+                <div class="player-stat-value">0</div>
+                <div class="player-stat-label">ELO</div>
+            </div>
+            <div class="player-stat">
+                <div class="player-stat-value">0.00</div>
+                <div class="player-stat-label">Rating</div>
+            </div>
+            <div class="player-stat">
+                <div class="player-stat-value">0.00</div>
+                <div class="player-stat-label">K/D</div>
+            </div>
+            <div class="player-stat">
+                <div class="player-stat-value">0%</div>
+                <div class="player-stat-label">HS</div>
+            </div>
+            <div class="player-stat">
+                <div class="player-stat-value">0.0</div>
+                <div class="player-stat-label">ADR</div>
+            </div>
         `,
+        bio: `<p>Биография dex.</p>`,
         socials: `
-            <a href="https://www.faceit.com/ru/players/STEPANSPADGE" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
-            <a href="https://steamcommunity.com/profiles/76561199470813315" target="_blank" rel="noopener" class="player-social-link">Steam</a>
+            <a href="#" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
+            <a href="#" target="_blank" rel="noopener" class="player-social-link">Steam</a>
         `
     },
     'solar': {
@@ -87,13 +125,32 @@ const playersData = {
         role: 'IGL',
         name: 'Ivan Komarov',
         photo: 'solar.png',
-        stats: '',
-        bio: `
-            <p>Биография Solar.</p>
+        stats: `
+            <div class="player-stat">
+                <div class="player-stat-value">0</div>
+                <div class="player-stat-label">ELO</div>
+            </div>
+            <div class="player-stat">
+                <div class="player-stat-value">0.00</div>
+                <div class="player-stat-label">Rating</div>
+            </div>
+            <div class="player-stat">
+                <div class="player-stat-value">0.00</div>
+                <div class="player-stat-label">K/D</div>
+            </div>
+            <div class="player-stat">
+                <div class="player-stat-value">0%</div>
+                <div class="player-stat-label">HS</div>
+            </div>
+            <div class="player-stat">
+                <div class="player-stat-value">0.0</div>
+                <div class="player-stat-label">ADR</div>
+            </div>
         `,
+        bio: `<p>Биография Solar.</p>`,
         socials: `
-            <a href="https://www.faceit.com/ru/players/so111ar" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
-            <a href="https://steamcommunity.com/profiles/76561199811724054" target="_blank" rel="noopener" class="player-social-link">Steam</a>
+            <a href="#" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
+            <a href="#" target="_blank" rel="noopener" class="player-social-link">Steam</a>
         `
     },
     'modern': {
@@ -101,13 +158,32 @@ const playersData = {
         role: 'Rifler',
         name: 'Mikhail Galchenkov',
         photo: 'modern.png',
-        stats: '',
-        bio: `
-            <p>Биография mODeRN.</p>
+        stats: `
+            <div class="player-stat">
+                <div class="player-stat-value">0</div>
+                <div class="player-stat-label">ELO</div>
+            </div>
+            <div class="player-stat">
+                <div class="player-stat-value">0.00</div>
+                <div class="player-stat-label">Rating</div>
+            </div>
+            <div class="player-stat">
+                <div class="player-stat-value">0.00</div>
+                <div class="player-stat-label">K/D</div>
+            </div>
+            <div class="player-stat">
+                <div class="player-stat-value">0%</div>
+                <div class="player-stat-label">HS</div>
+            </div>
+            <div class="player-stat">
+                <div class="player-stat-value">0.0</div>
+                <div class="player-stat-label">ADR</div>
+            </div>
         `,
+        bio: `<p>Биография mODeRN.</p>`,
         socials: `
-            <a href="https://www.faceit.com/ru/players/mOdErn" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
-            <a href="https://steamcommunity.com/id/galchenkov/" target="_blank" rel="noopener" class="player-social-link">Steam</a>
+            <a href="#" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
+            <a href="#" target="_blank" rel="noopener" class="player-social-link">Steam</a>
         `
     },
     'fara': {
@@ -115,13 +191,32 @@ const playersData = {
         role: 'Sniper',
         name: 'Daniil Sidorov',
         photo: 'fara.png',
-        stats: '',
-        bio: `
-            <p>Биография Fara.</p>
+        stats: `
+            <div class="player-stat">
+                <div class="player-stat-value">1266</div>
+                <div class="player-stat-label">ELO</div>
+            </div>
+            <div class="player-stat">
+                <div class="player-stat-value">1.18</div>
+                <div class="player-stat-label">Rating</div>
+            </div>
+            <div class="player-stat">
+                <div class="player-stat-value">1.12</div>
+                <div class="player-stat-label">K/D</div>
+            </div>
+            <div class="player-stat">
+                <div class="player-stat-value">44%</div>
+                <div class="player-stat-label">HS</div>
+            </div>
+            <div class="player-stat">
+                <div class="player-stat-value">80.3</div>
+                <div class="player-stat-label">ADR</div>
+            </div>
         `,
+        bio: `<p>Биография Fara.</p>`,
         socials: `
-            <a href="https://www.faceit.com/ru/players/Farasighted" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
-            <a href="https://steamcommunity.com/profiles/76561199095091335" target="_blank" rel="noopener" class="player-social-link">Steam</a>
+            <a href="#" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
+            <a href="#" target="_blank" rel="noopener" class="player-social-link">Steam</a>
         `
     }
 };
