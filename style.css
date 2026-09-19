@@ -1071,11 +1071,12 @@ body {
 }
 
 .gallery-title {
-    font-family: 'Great Vibes', cursive;
-    font-size: 56px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 1.2;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 52px;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    line-height: 1.25;
     background: linear-gradient(135deg, #e9d5ff 0%, #c084fc 50%, #a855f7 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
