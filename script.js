@@ -18,7 +18,10 @@ const newsData = {
         title: 'Wilders Esports will participate on CyberX 5x5 LAN',
         date: '4 July 2026',
         body: `
-            <p>Полный текст анонса об участии в CyberX 5x5 LAN.</p>
+            <p>In the near future, our team will take part in CyberX 5x5 LAN tournament, which will commence on July 26 at 11:00 Moscow time.</p>
+            <p>This will be the first serious tournament after the January series of changes.</p>
+            <p>The roster has already gathered to prepare for the tournament in order to approach it in optimal shape.</p>
+            <p>Cheer for the Wielders</p>
         `
     },
     'fara-announce': {
@@ -27,8 +30,11 @@ const newsData = {
         title: 'Fara is back in action, replacing SuSH1 as a sniper',
         date: '19 January 2026',
         body: `
-            <p>Not much time has passed since the addition of dex, but Wielders are once again making changes to the roster.</p>
-            <p>Полный текст новости про возвращение Fara.</p>
+            <p>Not much time has passed since the addition of dex, but we are once again making changes to the roster.</p>
+            <p>Gleb "SuSH1" Stepanenko sits on the bench. This decision was made in accordance with the vision of the organization and the desire of the player himself.</p>
+            <p>SuSH1 stood at the origins of the organization, and we are incredibly grateful to him for the months he spent with the team. The management sees prospects for his development and we will hope for a bright future for his career.</p>
+            <p>However, while someone sits on the bench, someone rises from it. Danil "Fara" Sidorov returns to the main roster after more than six months of absence.</p>
+            <p>During this time, Danil was able to further develop his talent, strengthen his self-confidence and is now ready to return to the server. The organization fully trusts him to return to the role of a sniper, and we are confident that he will be able to reveal himself even more than before.</p>
         `
     },
     'dex-announce': {
@@ -37,8 +43,11 @@ const newsData = {
         title: 'Sp3ctra is taking a backseat to give dex a chance to shine',
         date: '3 January 2026',
         body: `
-            <p>Wielders officially announce changes in the main roster after a short testing of various stand-ins.</p>
-            <p>Полный текст новости про добавление dex в состав.</p>
+            <p>After analyzing the results of the last matches, it was decided to make changes to the team.</p>
+            <p>Mikhail "Sp3ctra" Sokolov was moved to the bench and Stepan "dex" Lukinsky took his place. Stepan has already played in several matches as a stand-in for the updated roster, and the management is very satisfied with his performance. We believe that he will easily integrate into the team and be able to handle all assigned tasks.</p>
+            <p>Mikhail has made a worthy and extremely important contribution to the development of the organization, but in recent months he has not been able to properly play his roles in the team. We thank him for his time with us and believe that he will have a bright future ahead of him.</p>
+            <p>After Sp3ctra's departure, Gleb "SuSH1" Stepanenko will return to his role as the main sniper.</p>
+            <p>The team will meet again soon to prepare for the upcoming games.</p>
         `
     }
 };
