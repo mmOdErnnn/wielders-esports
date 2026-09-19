@@ -106,8 +106,8 @@ const playersData = {
             <p>Биография mODeRN.</p>
         `,
         socials: `
-            <a href="#" class="player-social-link">Faceit</a>
-            <a href="#" class="player-social-link">Steam</a>
+            <a href="https://www.faceit.com/ru/players/mOdErn" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
+            <a href="https://steamcommunity.com/id/galchenkov/" target="_blank" rel="noopener" class="player-social-link">Steam</a>
         `
     },
     'fara': {
