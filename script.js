@@ -94,23 +94,23 @@ const playersData = {
         photo: 'dex.png',
         stats: `
             <div class="player-stat">
-                <div class="player-stat-value">0</div>
+                <div class="player-stat-value">1288</div>
                 <div class="player-stat-label">ELO</div>
             </div>
             <div class="player-stat">
-                <div class="player-stat-value">0.00</div>
+                <div class="player-stat-value">1.00</div>
                 <div class="player-stat-label">Rating</div>
             </div>
             <div class="player-stat">
-                <div class="player-stat-value">0.00</div>
+                <div class="player-stat-value">0.93</div>
                 <div class="player-stat-label">K/D</div>
             </div>
             <div class="player-stat">
-                <div class="player-stat-value">0%</div>
+                <div class="player-stat-value">56%</div>
                 <div class="player-stat-label">HS</div>
             </div>
             <div class="player-stat">
-                <div class="player-stat-value">0.0</div>
+                <div class="player-stat-value">75.8</div>
                 <div class="player-stat-label">ADR</div>
             </div>
         `,
@@ -127,23 +127,23 @@ const playersData = {
         photo: 'solar.png',
         stats: `
             <div class="player-stat">
-                <div class="player-stat-value">0</div>
+                <div class="player-stat-value">970</div>
                 <div class="player-stat-label">ELO</div>
             </div>
             <div class="player-stat">
-                <div class="player-stat-value">0.00</div>
+                <div class="player-stat-value">1.03</div>
                 <div class="player-stat-label">Rating</div>
             </div>
             <div class="player-stat">
-                <div class="player-stat-value">0.00</div>
+                <div class="player-stat-value">0.86</div>
                 <div class="player-stat-label">K/D</div>
             </div>
             <div class="player-stat">
-                <div class="player-stat-value">0%</div>
+                <div class="player-stat-value">44%</div>
                 <div class="player-stat-label">HS</div>
             </div>
             <div class="player-stat">
-                <div class="player-stat-value">0.0</div>
+                <div class="player-stat-value">70.5</div>
                 <div class="player-stat-label">ADR</div>
             </div>
         `,
@@ -160,23 +160,23 @@ const playersData = {
         photo: 'modern.png',
         stats: `
             <div class="player-stat">
-                <div class="player-stat-value">0</div>
+                <div class="player-stat-value">1442</div>
                 <div class="player-stat-label">ELO</div>
             </div>
             <div class="player-stat">
-                <div class="player-stat-value">0.00</div>
+                <div class="player-stat-value">1.06</div>
                 <div class="player-stat-label">Rating</div>
             </div>
             <div class="player-stat">
-                <div class="player-stat-value">0.00</div>
+                <div class="player-stat-value">0.92</div>
                 <div class="player-stat-label">K/D</div>
             </div>
             <div class="player-stat">
-                <div class="player-stat-value">0%</div>
+                <div class="player-stat-value">45%</div>
                 <div class="player-stat-label">HS</div>
             </div>
             <div class="player-stat">
-                <div class="player-stat-value">0.0</div>
+                <div class="player-stat-value">73.1</div>
                 <div class="player-stat-label">ADR</div>
             </div>
         `,
