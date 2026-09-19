@@ -61,27 +61,27 @@ const playersData = {
         photo: 'suzume.png',
         stats: `
             <div class="player-stat">
-                <div class="player-stat-value">1266</div>
+                <div class="player-stat-value">1287</div>
                 <div class="player-stat-label">ELO</div>
             </div>
             <div class="player-stat">
-                <div class="player-stat-value">1.18</div>
+                <div class="player-stat-value">1.05</div>
                 <div class="player-stat-label">Rating</div>
             </div>
             <div class="player-stat">
-                <div class="player-stat-value">1.12</div>
+                <div class="player-stat-value">0.94</div>
                 <div class="player-stat-label">K/D</div>
             </div>
             <div class="player-stat">
-                <div class="player-stat-value">44%</div>
+                <div class="player-stat-value">41%</div>
                 <div class="player-stat-label">HS</div>
             </div>
             <div class="player-stat">
-                <div class="player-stat-value">80.3</div>
+                <div class="player-stat-value">84.1</div>
                 <div class="player-stat-label">ADR</div>
             </div>
         `,
-        bio: `<p>Биография Suzume.</p>`,
+        bio: `<p>Has been a part of Wielders ES since June 2025.</p>`,
         socials: `
             <a href="#" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
             <a href="#" target="_blank" rel="noopener" class="player-social-link">Steam</a>
@@ -114,7 +114,7 @@ const playersData = {
                 <div class="player-stat-label">ADR</div>
             </div>
         `,
-        bio: `<p>Биография dex.</p>`,
+        bio: `<p>Has been a part of Wielders ES since January 2026.</p>`,
         socials: `
             <a href="#" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
             <a href="#" target="_blank" rel="noopener" class="player-social-link">Steam</a>
@@ -147,7 +147,7 @@ const playersData = {
                 <div class="player-stat-label">ADR</div>
             </div>
         `,
-        bio: `<p>Биография Solar.</p>`,
+        bio: `<p>Has been a part of Wielders ES since February 2025.</p>`,
         socials: `
             <a href="#" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
             <a href="#" target="_blank" rel="noopener" class="player-social-link">Steam</a>
@@ -180,7 +180,7 @@ const playersData = {
                 <div class="player-stat-label">ADR</div>
             </div>
         `,
-        bio: `<p>Биография mODeRN.</p>`,
+        bio: `<p>Has been a part of Wielders ES since February 2025.</p>`,
         socials: `
             <a href="#" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
             <a href="#" target="_blank" rel="noopener" class="player-social-link">Steam</a>
@@ -213,7 +213,8 @@ const playersData = {
                 <div class="player-stat-label">ADR</div>
             </div>
         `,
-        bio: `<p>Биография Fara.</p>`,
+            bio: `<p>Was a part of Wielders ES from February to June 2025.
+            Has been a part of Wielders ES since January 2026.</p>`,
         socials: `
             <a href="#" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
             <a href="#" target="_blank" rel="noopener" class="player-social-link">Steam</a>
