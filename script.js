@@ -213,8 +213,7 @@ const playersData = {
                 <div class="player-stat-label">ADR</div>
             </div>
         `,
-        bio: `<p>Was a part of Wielders ES from February to June 2025.</p>
-        <p>Has been a part of Wielders ES since January 2026.</p>`,
+        bio: `<p>Was a part of Wielders ES from February to June 2025.<\n> Has been a part of Wielders ES since January 2026.</p>,
         socials: `
             <a href="#" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
             <a href="#" target="_blank" rel="noopener" class="player-social-link">Steam</a>
