@@ -6,7 +6,10 @@ const newsData = {
         title: 'totle09 will act as a stand-in at the next tournament',
         date: '9 July 2026',
         body: `
-            <p>Полный текст новости о том, что totle09 будет стендином на ближайшем турнире.</p>
+            <p>Mikhail "mODeRN" Galchenkov will not be able to attend the upcoming CyberX 5x5 LAN for personal reasons. He will be replaced by Ivan "totle09" Lukinsky during the tournament.</p>
+            <p>Ivan is well known to us, as he has already played as a substitute in our team before. We are sure that he will do an excellent job with the tasks assigned to him and will perform well on the server.</p>
+            <p>The team will start performing on July 26 at 11:00 Moscow time.</p>
+            <p>Cheer for the Wielders</p>
         `
     },
     'cyberx-5v5': {
