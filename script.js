@@ -64,8 +64,8 @@ const playersData = {
             <p>Биография Suzume.</p>
         `,
         socials: `
-            <a href="#" class="player-social-link">Faceit</a>
-            <a href="#" class="player-social-link">Steam</a>
+            <a href="https://www.faceit.com/ru/players/Th3mBones" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
+            <a href="https://steamcommunity.com/id/suzum3b4chi" target="_blank" rel="noopener" class="player-social-link">Steam</a>
         `
     },
     'dex': {
@@ -78,8 +78,8 @@ const playersData = {
             <p>Биография dex.</p>
         `,
         socials: `
-            <a href="#" class="player-social-link">Faceit</a>
-            <a href="#" class="player-social-link">Steam</a>
+            <a href="https://www.faceit.com/ru/players/STEPANSPADGE" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
+            <a href="https://steamcommunity.com/profiles/76561199470813315" target="_blank" rel="noopener" class="player-social-link">Steam</a>
         `
     },
     'solar': {
@@ -92,8 +92,8 @@ const playersData = {
             <p>Биография Solar.</p>
         `,
         socials: `
-            <a href="#" class="player-social-link">Faceit</a>
-            <a href="#" class="player-social-link">Steam</a>
+            <a href="https://www.faceit.com/ru/players/so111ar" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
+            <a href="https://steamcommunity.com/profiles/76561199811724054" target="_blank" rel="noopener" class="player-social-link">Steam</a>
         `
     },
     'modern': {
@@ -120,8 +120,8 @@ const playersData = {
             <p>Биография Fara.</p>
         `,
         socials: `
-            <a href="#" class="player-social-link">Faceit</a>
-            <a href="#" class="player-social-link">Steam</a>
+            <a href="https://www.faceit.com/ru/players/Farasighted" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
+            <a href="https://steamcommunity.com/profiles/76561199095091335" target="_blank" rel="noopener" class="player-social-link">Steam</a>
         `
     }
 };
