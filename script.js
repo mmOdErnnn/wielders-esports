@@ -270,7 +270,7 @@ const playersData = {
 
     'squiller-dota': {
         nickname: 'Squiller',
-        role: 'Offline',
+        role: 'Offlane',
         name: 'Alexander Filinov',
         photo: 'Squiller.png',
         stats: '',
