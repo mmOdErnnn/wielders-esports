@@ -375,10 +375,10 @@ function switchGame(game, event) {
     const iconEl = document.getElementById('currentGameIcon');
     const nameEl = document.getElementById('currentGameName');
     if (game === 'cs2') {
-        iconEl.textContent = '🎯';
+        iconEl.textContent = '';
         nameEl.textContent = 'CS2';
     } else {
-        iconEl.textContent = '⚔️';
+        iconEl.textContent = '';
         nameEl.textContent = 'Dota 2';
     }
 
