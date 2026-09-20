@@ -1,14 +1,27 @@
 :root {
-    --bg: #06060e;
-    --surface: #0d0d1a;
-    --accent: #a855f7;
-    --accent-glow: #a855f780;
-    --accent-secondary: #7c3aed;
-    --gold: #c084fc;
+    /* Базовые переменные (одинаковые для обеих тем) */
     --text: #e8e8ed;
     --text-secondary: #8b8b99;
     --border: #1a1a2e;
     --card-bg: #0f0f1f;
+}
+
+/* ===== CS2: чёрно-фиолетовая ===== */
+body.theme-cs2 {
+    --bg: #06060e;
+    --accent: #a855f7;
+    --accent-glow: #a855f780;
+    --accent-secondary: #7c3aed;
+    --gold: #c084fc;
+}
+
+/* ===== DOTA 2: чёрно-красно-серая ===== */
+body.theme-dota {
+    --bg: #0a0606;
+    --accent: #e33e3e;
+    --accent-glow: #e33e3e80;
+    --accent-secondary: #a02020;
+    --gold: #e85d5d;
 }
 
 html {
@@ -118,6 +131,16 @@ body {
     animation-duration: 26s;
 }
 
+
+/* Dota 2 — красные градиенты фона */
+body.theme-dota .gradient-1 { background: radial-gradient(circle, rgba(227, 62, 62, 0.5) 0%, transparent 70%); }
+body.theme-dota .gradient-2 { background: radial-gradient(circle, rgba(160, 32, 32, 0.45) 0%, transparent 70%); }
+body.theme-dota .gradient-3 { background: radial-gradient(circle, rgba(232, 93, 93, 0.3) 0%, transparent 70%); }
+body.theme-dota .gradient-4 { background: radial-gradient(circle, rgba(200, 50, 50, 0.35) 0%, transparent 70%); }
+body.theme-dota .gradient-5 { background: radial-gradient(circle, rgba(227, 62, 62, 0.35) 0%, transparent 70%); }
+body.theme-dota .gradient-6 { background: radial-gradient(circle, rgba(232, 93, 93, 0.3) 0%, transparent 70%); }
+
+
 @keyframes floatGradient1 {
     0% { transform: translate(0, 0) scale(1); }
     50% { transform: translate(80px, 50px) scale(1.2); }
@@ -168,6 +191,12 @@ body {
         linear-gradient(90deg, rgba(168, 85, 247, 0.04) 1px, transparent 1px);
     background-size: 50px 50px;
     mask-image: radial-gradient(ellipse at 50% 0%, black 35%, transparent 70%);
+}
+
+body.theme-dota .bg-grid {
+    background-image:
+        linear-gradient(rgba(227, 62, 62, 0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(227, 62, 62, 0.04) 1px, transparent 1px);
 }
 
 /* ===== ЧАСТИЦЫ ===== */
@@ -251,7 +280,7 @@ body {
     font-size: 35px;
     font-weight: 800;
     letter-spacing: 1px;
-    background: linear-gradient(135deg, #e9d5ff 0%, #c084fc 50%, #a855f7 100%);
+    background: linear-gradient(135deg, #ffffff 0%, var(--gold) 50%, var(--accent) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -315,7 +344,7 @@ body {
 }
 
 .about-content h1 .highlight {
-    background: linear-gradient(135deg, #a855f7, #c084fc, #e9d5ff);
+    background: linear-gradient(135deg, var(--accent), var(--gold), #ffffff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -409,6 +438,9 @@ body {
     left: -20px;
     animation: orbFloat2 4s ease-in-out infinite;
 }
+
+body.theme-dota .orb-1 { background: rgba(227, 62, 62, 0.3); }
+body.theme-dota .orb-2 { background: rgba(232, 93, 93, 0.3); }
 
 @keyframes orbFloat1 {
     0%, 100% { transform: translate(0, 0) scale(1); }
@@ -691,7 +723,7 @@ body {
     font-size: 22px;
     font-weight: 700;
     letter-spacing: 2px;
-    background: linear-gradient(135deg, #e9d5ff 0%, #c084fc 50%, #a855f7 100%);
+    background: linear-gradient(135deg, #ffffff 0%, var(--gold) 50%, var(--accent) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -942,7 +974,7 @@ body {
     font-weight: 900;
     letter-spacing: -1px;
     line-height: 1;
-    background: linear-gradient(135deg, #e9d5ff 0%, #c084fc 50%, #a855f7 100%);
+    background: linear-gradient(135deg, #ffffff 0%, var(--gold) 50%, var(--accent) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -1031,14 +1063,13 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 120%;
-    height: 120%;
+    height: 140%;
     background: radial-gradient(
         ellipse at center,
-        rgba(168, 85, 247, 0.18) 0%,
-        rgba(124, 58, 237, 0.08) 30%,
-        transparent 65%
+        var(--accent-glow) 0%,
+        transparent 60%
     );
-    filter: blur(80px);
+    filter: blur(120px);
     pointer-events: none;
     z-index: 0;
 }
@@ -1059,11 +1090,11 @@ body {
     font-style: italic;
     letter-spacing: 0.5px;
     line-height: 1.25;
-    background: linear-gradient(135deg, #e9d5ff 0%, #c084fc 50%, #a855f7 100%);
+    background: linear-gradient(135deg, #ffffff 0%, var(--gold) 50%, var(--accent) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-shadow: 0 0 60px rgba(168, 85, 247, 0.3);
+    text-shadow: 0 0 60px var(--accent-glow);
     max-width: 900px;
     margin: 0 auto;
 }
@@ -1636,5 +1667,137 @@ body {
         width: 170px;
         height: 120px;
     }
+}
+
+/* === ПЕРЕКЛЮЧАТЕЛЬ ИГР === */
+.game-switcher {
+    position: relative;
+    z-index: 20;
+}
+
+.game-switcher-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 14px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border);
+    border-radius: 30px;
+    color: var(--text);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.game-switcher-btn:hover {
+    border-color: var(--accent);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.game-icon {
+    font-size: 18px;
+    line-height: 1;
+}
+
+.game-name {
+    text-transform: uppercase;
+}
+
+.game-arrow {
+    font-size: 10px;
+    color: var(--text-secondary);
+    transition: transform 0.3s;
+}
+
+.game-switcher.open .game-arrow {
+    transform: rotate(180deg);
+}
+
+.game-switcher-menu {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    min-width: 160px;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-8px);
+    transition: opacity 0.25s, transform 0.25s;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.game-switcher.open .game-switcher-menu {
+    opacity: 1;
+    pointer-events: all;
+    transform: translateY(0);
+}
+
+.game-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 14px;
+    background: transparent;
+    border: none;
+    border-radius: 8px;
+    color: var(--text);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-align: left;
+    width: 100%;
+}
+
+.game-option:hover {
+    background: rgba(168, 85, 247, 0.1);
+    color: var(--accent);
+}
+
+body.theme-dota .game-option:hover {
+    background: rgba(227, 62, 62, 0.1);
+}
+
+.game-option.active {
+    background: rgba(168, 85, 247, 0.15);
+    color: var(--accent);
+}
+
+body.theme-dota .game-option.active {
+    background: rgba(227, 62, 62, 0.15);
+}
+
+/* Скрытие ростера */
+.players-grid.hidden {
+    display: none;
+}
+
+/* Заглушка карточки игрока */
+.placeholder-card {
+    opacity: 0.25;
+    cursor: default;
+    pointer-events: none;
+    border-style: dashed;
+}
+
+.placeholder-card .player-img-placeholder {
+    background: transparent;
+}
+
+.placeholder-card:hover {
+    transform: none;
+    border-color: var(--border);
+    box-shadow: none;
 }
    
