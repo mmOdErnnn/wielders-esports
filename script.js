@@ -268,7 +268,7 @@ const playersData = {
         `
     },
 
-    'Squiller-dota': {
+    'squiller-dota': {
         nickname: 'Squiller',
         role: 'Offline',
         name: 'Alexander Filinov',
