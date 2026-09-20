@@ -1167,9 +1167,10 @@ body {
     width: 100%;
     padding: 12px 14px;
     text-align: center;
-    font-family: 'Cormorant Garamond', serif;
-    font-style: italic;
-    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 500;
     letter-spacing: 0.5px;
     color: rgba(216, 204, 230, 0.85);
     background: linear-gradient(180deg, transparent 0%, rgba(6, 6, 14, 0.85) 100%);
