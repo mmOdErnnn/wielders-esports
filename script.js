@@ -220,63 +220,63 @@ const playersData = {
         `
     },
 
-    'dota-1': {
-        nickname: 'Player 1',
-        role: 'Carry',
-        name: 'Real Name',
+    'totle09-dota': {
+        nickname: 'totle09',
+        role: 'Soft Support',
+        name: 'Ivan Lukinsky',
         photo: 'dota1.png',
         stats: '',
-        bio: `<p>Random bio text. Replace this later.</p>`,
+        bio: `<p>Has been a part of Wielders ES since September 2026.</p>`,
         socials: `
-            <a href="#" target="_blank" rel="noopener" class="player-social-link">Steam</a>
+            <a href="https://steamcommunity.com/id/damncock" target="_blank" rel="noopener" class="player-social-link">Steam</a>
         `
     },
 
     'suzume-dota': {
         nickname: 'Suzume',
-        role: 'Rifler',
+        role: 'Carry',
         name: 'Maxim Kolbaya',
         photo: 'suzume.png',
         stats: '',
         bio: `<p>Has been a part of Wielders ES since June 2025.</p>`,
         socials: `
-            <a href="#" target="_blank" rel="noopener" class="player-social-link">Steam</a>
+            <a href="https://steamcommunity.com/id/suzum3b4chi" target="_blank" rel="noopener" class="player-social-link">Steam</a>
         `
     },
     
     'dex-dota': {
         nickname: 'dex',
-        role: 'Rifler',
+        role: 'Mid',
         name: 'Stepan Lukinsky',
         photo: 'dex.png',
         stats: '',
         bio: `<p>Has been a part of Wielders ES since January 2026.</p>`,
         socials: `
-            <a href="#" target="_blank" rel="noopener" class="player-social-link">Steam</a>
+            <a href="https://steamcommunity.com/profiles/76561199470813315" target="_blank" rel="noopener" class="player-social-link">Steam</a>
         `
     },
     
     'solar-dota': {
         nickname: 'Solar',
-        role: 'IGL',
+        role: 'Hard Support',
         name: 'Ivan Komarov',
         photo: 'solar.png',
         stats: '',
         bio: `<p>Has been a part of Wielders ES since February 2025.</p>`,
         socials: `
-            <a href="#" target="_blank" rel="noopener" class="player-social-link">Steam</a>
+            <a href="https://steamcommunity.com/profiles/76561199811724054" target="_blank" rel="noopener" class="player-social-link">Steam</a>
         `
     },
 
-    'dota-2': {
-        nickname: 'Player 2',
-        role: 'Mid',
-        name: 'Real Name',
+    'Squiller-dota': {
+        nickname: 'Squiller',
+        role: 'Offline',
+        name: 'Alexander Filinov',
         photo: 'dota2.png',
         stats: '',
-        bio: `<p>Random bio text. Replace this later.</p>`,
+        bio: `<p>Was a part of Wielders ES from February to June 2025. Has been a part of Wielders ES since September 2026.</p>`,
         socials: `
-            <a href="#" target="_blank" rel="noopener" class="player-social-link">Steam</a>
+            <a href="https://steamcommunity.com/profiles/76561199332675349" target="_blank" rel="noopener" class="player-social-link">Steam</a>
         `
     }
 };
