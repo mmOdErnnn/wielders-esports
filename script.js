@@ -224,7 +224,7 @@ const playersData = {
         nickname: 'totle09',
         role: 'Soft Support',
         name: 'Ivan Lukinsky',
-        photo: 'dota1.png',
+        photo: 'totle09.png',
         stats: '',
         bio: `<p>Has been a part of Wielders ES since September 2026.</p>`,
         socials: `
@@ -272,7 +272,7 @@ const playersData = {
         nickname: 'Squiller',
         role: 'Offline',
         name: 'Alexander Filinov',
-        photo: 'dota2.png',
+        photo: 'Squiller.png',
         stats: '',
         bio: `<p>Was a part of Wielders ES from February to June 2025. Has been a part of Wielders ES since September 2026.</p>`,
         socials: `
