@@ -686,22 +686,17 @@ body {
     letter-spacing: 1px;
 }
 
-.footer .footer-links {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    margin-bottom: 16px;
-}
-
-.footer .footer-links a {
-    color: var(--text-secondary);
-    text-decoration: none;
-    font-size: 13px;
-    transition: color 0.3s;
-}
-
-.footer .footer-links a:hover {
-    color: var(--accent);
+.footer-motto {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background: linear-gradient(135deg, #e9d5ff 0%, #c084fc 50%, #a855f7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    user-select: none;
+    pointer-events: none;
 }
 
 /* === ПЛАШКА EARLY ACCESS === */
