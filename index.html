@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="theme-cs2">
 
         <!-- ===== ПЛАШКА EARLY ACCESS ===== -->
     <div class="early-access-badge">Early Access (v0.2.1)</div>
@@ -44,6 +44,24 @@
             <a href="#" class="logo-link">
                 <span class="logo-name">WIELDERS</span>
             </a>
+
+            <div class="game-switcher">
+                <button class="game-switcher-btn" onclick="toggleGameSwitcher(event)">
+                    <span class="game-icon" id="currentGameIcon">🎯</span>
+                    <span class="game-name" id="currentGameName">CS2</span>
+                    <span class="game-arrow">▼</span>
+                </button>
+                <div class="game-switcher-menu" id="gameSwitcherMenu">
+                    <button class="game-option active" onclick="switchGame('cs2', event)">
+                        <span class="game-icon">🎯</span>
+                        <span>CS2</span>
+                    </button>
+                    <button class="game-option" onclick="switchGame('dota', event)">
+                        <span class="game-icon">⚔️</span>
+                        <span>Dota 2</span>
+                    </button>
+                </div>
+            </div>
         </header>
 
         <!-- ====== БЛОК О КОМАНДЕ ====== -->
@@ -69,37 +87,31 @@
         </section>
 
                 <!-- ====== ИГРОКИ ====== -->
-        <section class="players-section" id="roster">
+                <section class="players-section" id="roster">
             <div class="section-header collapsible-header" onclick="toggleSection('roster-section')">
                 <div class="section-line"></div>
                 <h2>ACTIVE ROSTER</h2>
                 <span class="toggle-arrow" id="roster-arrow">▼</span>
             </div>
             <div class="collapsible-content" id="roster-section">
-                <div class="players-grid">
 
-                    <!-- Игрок 1 -->
-                    <a href="#" class="player-card" onclick="openPlayer(event, 'suzume')">
-                        <div class="player-img-placeholder">
-                            <img src="suzume.png" alt="" title="" class="player-photo">
-                            <div class="player-overlay">
-                                <span class="overlay-text">Profile</span>
-                            </div>
-                        </div>
+                <!-- ===== РОСТЕР CS2 ===== -->
+                <div class="players-grid" id="roster-cs2">
+                    <!-- Заглушка слева -->
+                    <div class="player-card placeholder-card">
+                        <div class="player-img-placeholder"></div>
                         <div class="player-info">
-                            <div class="player-nickname">Suzume</div>
-                            <div class="player-role">Rifler</div>
-                            <div class="player-real-name">Maxim Kolbaya</div>
+                            <div class="player-nickname">—</div>
+                            <div class="player-role">—</div>
+                            <div class="player-real-name">—</div>
                         </div>
-                    </a>
+                    </div>
 
-                    <!-- Игрок 2 -->
+                    <!-- dex -->
                     <a href="#" class="player-card" onclick="openPlayer(event, 'dex')">
                         <div class="player-img-placeholder">
                             <img src="dex.png" alt="" title="" class="player-photo">
-                            <div class="player-overlay">
-                                <span class="overlay-text">Profile</span>
-                            </div>
+                            <div class="player-overlay"><span class="overlay-text">Profile</span></div>
                         </div>
                         <div class="player-info">
                             <div class="player-nickname">dex</div>
@@ -108,13 +120,24 @@
                         </div>
                     </a>
 
-                    <!-- Игрок 3 -->
+                    <!-- Suzume (в центре) -->
+                    <a href="#" class="player-card" onclick="openPlayer(event, 'suzume')">
+                        <div class="player-img-placeholder">
+                            <img src="suzume.png" alt="" title="" class="player-photo">
+                            <div class="player-overlay"><span class="overlay-text">Profile</span></div>
+                        </div>
+                        <div class="player-info">
+                            <div class="player-nickname">Suzume</div>
+                            <div class="player-role">Rifler</div>
+                            <div class="player-real-name">Maxim Kolbaya</div>
+                        </div>
+                    </a>
+
+                    <!-- Solar -->
                     <a href="#" class="player-card" onclick="openPlayer(event, 'solar')">
                         <div class="player-img-placeholder">
                             <img src="solar.png" alt="" title="" class="player-photo">
-                            <div class="player-overlay">
-                                <span class="overlay-text">Profile</span>
-                            </div>
+                            <div class="player-overlay"><span class="overlay-text">Profile</span></div>
                         </div>
                         <div class="player-info">
                             <div class="player-nickname">Solar</div>
@@ -123,37 +146,79 @@
                         </div>
                     </a>
 
-                    <!-- Игрок 4 -->
-                    <a href="#" class="player-card" onclick="openPlayer(event, 'modern')">
-                        <div class="player-img-placeholder">
-                            <img src="modern.png" alt="" title="" class="player-photo">
-                            <div class="player-overlay">
-                                <span class="overlay-text">Profile</span>
-                            </div>
-                        </div>
+                    <!-- Заглушка справа -->
+                    <div class="player-card placeholder-card">
+                        <div class="player-img-placeholder"></div>
                         <div class="player-info">
-                            <div class="player-nickname">mODeRN</div>
-                            <div class="player-role">Rifler</div>
-                            <div class="player-real-name">Mikhail Galchenkov</div>
+                            <div class="player-nickname">—</div>
+                            <div class="player-role">—</div>
+                            <div class="player-real-name">—</div>
                         </div>
-                    </a>
-
-                    <!-- Игрок 5 -->
-                    <a href="#" class="player-card" onclick="openPlayer(event, 'fara')">
-                        <div class="player-img-placeholder">
-                            <img src="fara.png" alt="" title="" class="player-photo">
-                            <div class="player-overlay">
-                                <span class="overlay-text">Profile</span>
-                            </div>
-                        </div>
-                        <div class="player-info">
-                            <div class="player-nickname">Fara</div>
-                            <div class="player-role">Sniper</div>
-                            <div class="player-real-name">Daniil Sidorov</div>
-                        </div>
-                    </a>
-
+                    </div>
                 </div>
+
+                <!-- ===== РОСТЕР DOTA 2 ===== -->
+                <div class="players-grid hidden" id="roster-dota">
+                    <!-- Заглушка слева -->
+                    <div class="player-card placeholder-card">
+                        <div class="player-img-placeholder"></div>
+                        <div class="player-info">
+                            <div class="player-nickname">—</div>
+                            <div class="player-role">—</div>
+                            <div class="player-real-name">—</div>
+                        </div>
+                    </div>
+
+                    <!-- Игрок Dota 2 — Pos 1 -->
+                    <a href="#" class="player-card" onclick="openPlayer(event, 'dota-player-1')">
+                        <div class="player-img-placeholder">
+                            <img src="dota1.png" alt="" title="" class="player-photo">
+                            <div class="player-overlay"><span class="overlay-text">Profile</span></div>
+                        </div>
+                        <div class="player-info">
+                            <div class="player-nickname">Player 1</div>
+                            <div class="player-role">Carry</div>
+                            <div class="player-real-name">Real Name</div>
+                        </div>
+                    </a>
+
+                    <!-- Игрок Dota 2 — Mid (в центре) -->
+                    <a href="#" class="player-card" onclick="openPlayer(event, 'dota-player-2')">
+                        <div class="player-img-placeholder">
+                            <img src="dota2.png" alt="" title="" class="player-photo">
+                            <div class="player-overlay"><span class="overlay-text">Profile</span></div>
+                        </div>
+                        <div class="player-info">
+                            <div class="player-nickname">Player 2</div>
+                            <div class="player-role">Mid</div>
+                            <div class="player-real-name">Real Name</div>
+                        </div>
+                    </a>
+
+                    <!-- Игрок Dota 2 — Offlane -->
+                    <a href="#" class="player-card" onclick="openPlayer(event, 'dota-player-3')">
+                        <div class="player-img-placeholder">
+                            <img src="dota3.png" alt="" title="" class="player-photo">
+                            <div class="player-overlay"><span class="overlay-text">Profile</span></div>
+                        </div>
+                        <div class="player-info">
+                            <div class="player-nickname">Player 3</div>
+                            <div class="player-role">Offlane</div>
+                            <div class="player-real-name">Real Name</div>
+                        </div>
+                    </a>
+
+                    <!-- Заглушка справа -->
+                    <div class="player-card placeholder-card">
+                        <div class="player-img-placeholder"></div>
+                        <div class="player-info">
+                            <div class="player-nickname">—</div>
+                            <div class="player-role">—</div>
+                            <div class="player-real-name">—</div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
 
