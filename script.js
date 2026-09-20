@@ -220,6 +220,18 @@ const playersData = {
         `
     },
 
+    'dota-1': {
+        nickname: 'Player 1',
+        role: 'Carry',
+        name: 'Real Name',
+        photo: 'dota1.png',
+        stats: '',
+        bio: `<p>Random bio text. Replace this later.</p>`,
+        socials: `
+            <a href="#" target="_blank" rel="noopener" class="player-social-link">Steam</a>
+        `
+    },
+
     'suzume-dota': {
         nickname: 'Suzume',
         role: 'Rifler',
@@ -231,6 +243,7 @@ const playersData = {
             <a href="#" target="_blank" rel="noopener" class="player-social-link">Steam</a>
         `
     },
+    
     'dex-dota': {
         nickname: 'dex',
         role: 'Rifler',
@@ -242,6 +255,7 @@ const playersData = {
             <a href="#" target="_blank" rel="noopener" class="player-social-link">Steam</a>
         `
     },
+    
     'solar-dota': {
         nickname: 'Solar',
         role: 'IGL',
@@ -249,6 +263,18 @@ const playersData = {
         photo: 'solar.png',
         stats: '',
         bio: `<p>Has been a part of Wielders ES since February 2025.</p>`,
+        socials: `
+            <a href="#" target="_blank" rel="noopener" class="player-social-link">Steam</a>
+        `
+    },
+
+    'dota-2': {
+        nickname: 'Player 2',
+        role: 'Mid',
+        name: 'Real Name',
+        photo: 'dota2.png',
+        stats: '',
+        bio: `<p>Random bio text. Replace this later.</p>`,
         socials: `
             <a href="#" target="_blank" rel="noopener" class="player-social-link">Steam</a>
         `
