@@ -221,7 +221,7 @@ const playersData = {
     },
 
     'totle09-dota': {
-        nickname: 'totle09',
+        nickname: 'xd',
         role: 'Soft Support',
         name: 'Ivan Lukinsky',
         photo: 'totle09.png',
@@ -269,7 +269,7 @@ const playersData = {
     },
 
     'squiller-dota': {
-        nickname: 'Squiller',
+        nickname: '5M₽',
         role: 'Offlane',
         name: 'Alexander Filinov',
         photo: 'Squiller.png',
