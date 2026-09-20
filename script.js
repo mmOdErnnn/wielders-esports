@@ -218,6 +218,40 @@ const playersData = {
             <a href="https://www.faceit.com/ru/players/Farasighted" target="_blank" rel="noopener" class="player-social-link">Faceit</a>
             <a href="https://steamcommunity.com/profiles/76561199095091335" target="_blank" rel="noopener" class="player-social-link">Steam</a>
         `
+    },
+
+    'suzume-dota': {
+        nickname: 'Suzume',
+        role: 'Rifler',
+        name: 'Maxim Kolbaya',
+        photo: 'suzume.png',
+        stats: '',
+        bio: `<p>Has been a part of Wielders ES since June 2025.</p>`,
+        socials: `
+            <a href="#" target="_blank" rel="noopener" class="player-social-link">Steam</a>
+        `
+    },
+    'dex-dota': {
+        nickname: 'dex',
+        role: 'Rifler',
+        name: 'Stepan Lukinsky',
+        photo: 'dex.png',
+        stats: '',
+        bio: `<p>Has been a part of Wielders ES since January 2026.</p>`,
+        socials: `
+            <a href="#" target="_blank" rel="noopener" class="player-social-link">Steam</a>
+        `
+    },
+    'solar-dota': {
+        nickname: 'Solar',
+        role: 'IGL',
+        name: 'Ivan Komarov',
+        photo: 'solar.png',
+        stats: '',
+        bio: `<p>Has been a part of Wielders ES since February 2025.</p>`,
+        socials: `
+            <a href="#" target="_blank" rel="noopener" class="player-social-link">Steam</a>
+        `
     }
 };
 
@@ -288,5 +322,52 @@ document.addEventListener('keydown', function (event) {
         const playerModal = document.getElementById('playerModal');
         if (newsModal.classList.contains('active')) closeNews();
         if (playerModal.classList.contains('active')) closePlayer();
+    }
+});
+
+// ===== ПЕРЕКЛЮЧАТЕЛЬ ИГР =====
+function toggleGameSwitcher(event) {
+    event.stopPropagation();
+    const switcher = document.querySelector('.game-switcher');
+    switcher.classList.toggle('open');
+}
+
+function switchGame(game, event) {
+    event.stopPropagation();
+    const body = document.body;
+    const switcher = document.querySelector('.game-switcher');
+
+    // 1. Меняем тему
+    body.classList.remove('theme-cs2', 'theme-dota');
+    body.classList.add('theme-' + game);
+
+    // 2. Меняем активную кнопку
+    document.querySelectorAll('.game-option').forEach(opt => opt.classList.remove('active'));
+    event.currentTarget.classList.add('active');
+
+    // 3. Меняем иконку и название в кнопке
+    const iconEl = document.getElementById('currentGameIcon');
+    const nameEl = document.getElementById('currentGameName');
+    if (game === 'cs2') {
+        iconEl.textContent = '🎯';
+        nameEl.textContent = 'CS2';
+    } else {
+        iconEl.textContent = '⚔️';
+        nameEl.textContent = 'Dota 2';
+    }
+
+    // 4. Показываем нужный ростер
+    document.getElementById('roster-cs2').classList.toggle('hidden', game !== 'cs2');
+    document.getElementById('roster-dota').classList.toggle('hidden', game !== 'dota');
+
+    // 5. Закрываем меню
+    switcher.classList.remove('open');
+}
+
+// Закрытие переключателя при клике вне его
+document.addEventListener('click', function (event) {
+    const switcher = document.querySelector('.game-switcher');
+    if (switcher && !switcher.contains(event.target)) {
+        switcher.classList.remove('open');
     }
 });
