@@ -1160,6 +1160,31 @@ body {
     -webkit-user-drag: none;
 }
 
+.gallery-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px 14px;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: rgba(216, 204, 230, 0.85);
+    background: linear-gradient(180deg, transparent 0%, rgba(6, 6, 14, 0.85) 100%);
+    opacity: 0;
+    transform: translateY(8px);
+    transition: opacity 0.35s ease, transform 0.35s ease;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.gallery-item:hover .gallery-caption {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 /* Заглушки с разными оттенками, чтобы отличались визуально */
 .placeholder-a { background: linear-gradient(145deg, #1e1a2e, #0d0d1a); }
 .placeholder-b { background: linear-gradient(145deg, #1a1e2e, #0d0d1a); }
